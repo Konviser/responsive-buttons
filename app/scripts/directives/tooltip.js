@@ -3,7 +3,7 @@
 angular.module('Dirs')
   .directive('spanTooltip', function(){
 
-    var template = '<a class="tooltips" href="#">{{text}}<span>{{tooltiptext}}</span></a><div ng-transclude></div>';
+    var template = '<a class="tooltips" href="#" ng-style="{\'color\': options.color}">{{text}}<span>{{tooltiptext}}</span></a><div ng-transclude></div>';
 
     var linkFunction = function(scope,element,attrs){
 
