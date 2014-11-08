@@ -9,9 +9,9 @@
  */
 angular.module('responsiveButtonsApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
+    $scope.clickButton = function(){
+      console.log('button has been clicked');
+    }
+
   });
