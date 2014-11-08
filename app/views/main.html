@@ -8,5 +8,9 @@
 </div>
 
 <div class="row">
-  <button-dir click="clickButton"></button-dir>
+  <div ng-repeat="item in items">
+    <span-tooltip tooltip="item.description" tooltip-options="{color: item.color}" text="item.text">
+       <button-dir click="clickButton"></button-dir>
+    </span-tooltip>
+  </div>
 </div>

@@ -37,7 +37,11 @@ angular.module('Dirs')
     };
 
 
-    var linkFunction = function(scope, element, attrs){
+    var linkFunction = function(scope, element, attrs, tooltipCtrl){
+      console.log(tooltipCtrl);
+
+      tooltipCtrl.modifyText('This text has been added by the button directive');
+      tooltipCtrl.modifyStyle('buttondirstyle');
 
       scope.clickFunc = scope[attrs.click];
 
@@ -45,7 +49,6 @@ angular.module('Dirs')
         return $($window).width();
 
       }, function(value) {
-        console.log(value);
 
         if (value > 1024) {
           element.html(getTemplate('button-lg')).show();
@@ -73,6 +76,7 @@ angular.module('Dirs')
 
       restrict: 'E',
       replace: true,
+      require: '^spanTooltip',
       link: linkFunction
     }
 
