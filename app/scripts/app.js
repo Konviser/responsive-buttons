@@ -12,5 +12,6 @@ angular
   .module('responsiveButtonsApp', [
     'ngAnimate',
     'ngCookies',
-    'ngTouch'
+    'ngTouch',
+    'Dirs'
   ]);
