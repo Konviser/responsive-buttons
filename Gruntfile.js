@@ -32,7 +32,7 @@ module.exports = function (grunt) {
         options: { // Target options
           style: 'expanded',
           loadPath: [
-            '<%= yeoman.app %>/../bower_components',
+            './bower_components',
             '<%= yeoman.app %>/styles'
           ],
         },

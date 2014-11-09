@@ -10,8 +10,9 @@ angular.module('Dirs')
     };
 
     var ctrl = function($scope, $element, $attrs){
+
         this.modifyText = function(text){
-            $scope.text = text;
+            $scope.tooltiptext = text;
         };
 
         this.modifyStyle = function(className){
