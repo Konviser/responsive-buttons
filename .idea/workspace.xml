@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd7c8ca1-ae41-48dc-b1ae-2c50f16e6889" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/tooltip.js" afterPath="$PROJECT_DIR$/app/scripts/directives/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/buttons.js" afterPath="$PROJECT_DIR$/app/scripts/directives/buttons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="moziotest.iws" />
@@ -27,20 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="buttons.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="buttons.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/buttons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1335">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.5045045" vertical-offset="309" max-vertical-offset="1335">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tooltip.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tooltip.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/tooltip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11261261" vertical-offset="0" max-vertical-offset="666">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
               <folding />
             </state>
@@ -479,14 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/buttons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1335">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_buttondir.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10895884" vertical-offset="0" max-vertical-offset="413">
@@ -505,8 +497,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/tooltip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11261261" vertical-offset="0" max-vertical-offset="666">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/buttons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5045045" vertical-offset="309" max-vertical-offset="1335">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="47" />
           <folding />
         </state>
       </provider>

@@ -40,8 +40,8 @@ angular.module('Dirs')
     var linkFunction = function(scope, element, attrs, tooltipCtrl){
       console.log(tooltipCtrl);
 
-      tooltipCtrl.modifyText('This text has been added by the button directive');
-      tooltipCtrl.modifyStyle('buttondirstyle');
+      tooltipCtrl.modifyText('New text');
+        tooltipCtrl.modifyStyle('buttondirstyle');
 
       scope.clickFunc = scope[attrs.click];
 
